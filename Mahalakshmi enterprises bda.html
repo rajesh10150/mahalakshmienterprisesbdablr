@@ -2066,7 +2066,7 @@ a { text-decoration: none; color: inherit; }
 //  ⚙️  CONFIGURATION — PASTE YOUR APPS SCRIPT URL BELOW
 // ══════════════════════════════════════════════════════════
 const YOUR_EMAIL = 'rajeshkrish1021@gmail.com';
-const SHEET_API  = 'YOUR_APPS_SCRIPT_URL_HERE';
+const SHEET_API  = 'https://script.google.com/macros/s/AKfycbwT_b6tv56Dr1MQKUUt1TofrP6Kw0uLAKUt97p21EjGVyUtZ-g640AyPVcGVdOK3loT/exec';
 //   ↑ Follow the setup guide in the companion file
 //   Once deployed, paste the Web App URL here exactly
 // ══════════════════════════════════════════════════════════
@@ -2086,7 +2086,7 @@ const DEFAULT_PLOTS = JSON.parse(JSON.stringify(properties));
 //  GOOGLE SHEETS API LAYER
 // ════════════════════════════════════════════
 
-const sheetReady = () => SHEET_API !== 'YOUR_APPS_SCRIPT_URL_HERE' && SHEET_API.startsWith('https://');
+const sheetReady = () => SHEET_API !== 'https://script.google.com/macros/s/AKfycbwT_b6tv56Dr1MQKUUt1TofrP6Kw0uLAKUt97p21EjGVyUtZ-g640AyPVcGVdOK3loT/exec' && SHEET_API.startsWith('https://');
 
 // GET — fetch all plots from Sheet
 async function sheetsGet() {
